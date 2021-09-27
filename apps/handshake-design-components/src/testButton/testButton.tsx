@@ -20,7 +20,7 @@ export function TestButton() {
         <img src={star} className="material-icons" alt="" />
         Star
         
-          <button className="test-button">TestButton woooo!!!!!</button>
+          <button className="test-button">TestButton woooo!!!!! This should be super quick</button>
       </div>
     </StyledTestButton>
   );
