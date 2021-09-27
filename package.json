@@ -6,8 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "build-storybook": "yarn build-storybook && npx chromatic --exit-zero-on-changes -d storybook-static/",
-    "chromatic": "npx chromatic --project-token=110db19e5e77"
+    "build-storybook": "nx affected --target build-storybook",
+    "chromatic": "npx chromatic --project-token=110db19e5e77 --exit-zero-on-changes -d dist/storybook/handshake-design-components/"
   },
   "private": true,
   "dependencies": {
